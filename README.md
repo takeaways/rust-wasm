@@ -37,7 +37,12 @@ cargo run
 - it's a region of the process memory that is NOT automatically managed
 - it has no size restriction
 - it's accessible by any function, anywhere in the program
+- saving memory address (pointer) - should!! release memory!!
 
 ## Pointers
 
+- heap
+
 ## Smart Pointers
+
+- wrap pointer and remove heap memory when stack frame pops
