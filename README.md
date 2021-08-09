@@ -9,6 +9,9 @@
 2. rustc: 컴파일러
 3. rustup
 
+- rustup toolchain list
+- rustup install nightly
+
 ```bash
 cargo new example or cargo init
 ```
@@ -30,6 +33,10 @@ cargo run
 - when a function exits it's stack frame is released.
 
 ## The Heap
+
+- it's a region of the process memory that is NOT automatically managed
+- it has no size restriction
+- it's accessible by any function, anywhere in the program
 
 ## Pointers
 
