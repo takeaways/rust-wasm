@@ -46,3 +46,15 @@ cargo run
 ## Smart Pointers
 
 - wrap pointer and remove heap memory when stack frame pops
+
+###
+
+```
+let mut price = 0
+price = 100
+```
+
+###
+
+gdb --version
+brew install gdb
