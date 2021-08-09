@@ -8,3 +8,10 @@
 ```bash
 cargo new example or cargo init
 ```
+
+# Hello world
+
+```bash
+cargo build
+cargo run
+```
